@@ -82,3 +82,25 @@ body {
 .faq-answer.open {
     display: block;
 }
+
+@media (max-width: 375px) {
+    body {
+      background-image: url('assets/images/background-pattern-mobile.svg');
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .faq-header h1 {
+      font-size: 2rem;
+    }
+
+    .faq-question {
+      font-size: 0.9rem;
+    }
+
+    .faq-answer {
+      font-size: 0.8rem;
+    }
+}
