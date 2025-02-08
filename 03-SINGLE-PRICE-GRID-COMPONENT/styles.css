@@ -103,3 +103,21 @@ body {
 .signup-btn:hover {
     background: hsl(71, 73%, 45%);
 }
+
+.why-us {
+    background: hsl(179, 47%, 52%);
+}
+
+.why-us h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.why-us ul {
+    list-style: none;
+}
+
+.why-us li {
+    opacity: 0.9;
+    line-height: 1.5;
+}
