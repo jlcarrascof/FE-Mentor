@@ -69,3 +69,21 @@ body {
 .subscription h2 {
     font-size: 20px;
 }
+
+.price {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.price span {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-left: 5px;
+}
+
+.subscription p {
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
