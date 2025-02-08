@@ -87,3 +87,19 @@ body {
     margin-bottom: 15px;
     opacity: 0.9;
 }
+
+.signup-btn {
+    display: block;
+    background: var(--bright-yellow);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.signup-btn:hover {
+    background: hsl(71, 73%, 45%);
+}
