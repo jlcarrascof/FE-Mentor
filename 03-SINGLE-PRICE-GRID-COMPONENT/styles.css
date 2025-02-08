@@ -30,3 +30,24 @@ body {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+
+.top-section {
+    padding: 25px;
+}
+
+.top-section h1 {
+    color: var(--cyan);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.top-section h2 {
+    color: var(--bright-yellow);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.top-section p {
+    color: var(--grayish-blue);
+    line-height: 1.5;
+}
