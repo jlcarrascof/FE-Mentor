@@ -121,3 +121,12 @@ body {
     opacity: 0.9;
     line-height: 1.5;
 }
+
+@media (min-width: 600px) {
+    .bottom-container {
+        flex-direction: row;
+    }
+    .subscription, .why-us {
+        flex: 1;
+    }
+}
