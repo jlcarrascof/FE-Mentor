@@ -51,3 +51,21 @@ body {
     color: var(--grayish-blue);
     line-height: 1.5;
 }
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription, .why-us {
+    padding: 25px;
+    color: white;
+}
+
+.subscription {
+    background: var(--cyan);
+}
+
+.subscription h2 {
+    font-size: 20px;
+}
