@@ -1,0 +1,132 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+    --font-family: 'Karla', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 16px;
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.top-section {
+    padding: 25px;
+}
+
+.top-section h1 {
+    color: var(--cyan);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.top-section h2 {
+    color: var(--bright-yellow);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.top-section p {
+    color: var(--grayish-blue);
+    line-height: 1.5;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription, .why-us {
+    padding: 25px;
+    color: white;
+}
+
+.subscription {
+    background: var(--cyan);
+}
+
+.subscription h2 {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.price span {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-left: 5px;
+}
+
+.subscription p {
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.signup-btn {
+    display: block;
+    background: var(--bright-yellow);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.signup-btn:hover {
+    background: hsl(71, 73%, 45%);
+}
+
+.why-us {
+    background: hsl(179, 47%, 52%);
+}
+
+.why-us h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.why-us ul {
+    list-style: none;
+}
+
+.why-us li {
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+@media (min-width: 600px) {
+    .bottom-container {
+        flex-direction: row;
+    }
+    .subscription, .why-us {
+        flex: 1;
+    }
+}
